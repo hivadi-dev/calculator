@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ماشین حساب 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h1>ماشین حساب</h1>
+            <span onclick= "toggleState()" ><i class="ri-sun-fill"></i></span>
+        </div>
+        <input type="text" id="num1" placeholder="عدد اول">
+        <input type="text" id="num2" placeholder="عدد دوم">
+        <div class="buttons">
+            <button onclick="_op('+')">+</button>
+            <button onclick="_op('-')">-</button>
+            <button onclick="_op('*')">*</button>
+            <button onclick="_op('/')">/</button>
+            <button onclick="_sum()">=</button>
+            <button onclick="clearall()">C</button>
+        </div>
+        <input type="text" id="sum" placeholder="نتیجه">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
