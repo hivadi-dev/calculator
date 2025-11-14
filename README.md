@@ -1,6 +1,7 @@
 # calculator
 ![Image](https://github.com/user-attachments/assets/35d6c170-d848-4930-912c-b21f7bda2314)
 
+![Image](https://github.com/user-attachments/assets/993305d5-19d9-44eb-8a18-99c2058acf0e)
 
 - Developed by hiva dargazani
 
